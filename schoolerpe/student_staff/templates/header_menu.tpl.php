@@ -20,7 +20,7 @@
                         
                         <td height="23" align="left" valign="bottom" style="font-weight:bold; color: #999999">Academic&nbsp;Year:&nbsp;<?php echo displaydate($res_year['fi_ac_startdate']);?>&nbsp;to&nbsp;<?php echo displaydate($res_year['fi_ac_enddate']);?></td>
                       </tr>
-                  </table></td>
+                  </table></td></tr><tr>
                   <td width="45%" align="right" valign="top"><table width="100%" height="20" border="0" cellpadding="0" cellspacing="2">
                       <tr>
                         <td width="15%" height="23" align="right" valign="top"><table width="100%" height="23" border="0" cellpadding="0" cellspacing="0">

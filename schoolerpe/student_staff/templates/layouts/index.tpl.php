@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="EIMS <?php 	echo $meta_description ;?>	" />
 <meta name="keywords" content="EIMS  <?php echo $meta_keywords; ?> " />
@@ -34,7 +35,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <link rel="stylesheet" type="text/css" href="./highslide/highslide.css" />
 </head>
 <body class="body_class"><script type="text/javascript" src="includes/js/wz_tooltip.js"></script>		
-<table width="1030" border="0" align="center" cellpadding="0" cellspacing="0">
+<table class="maintable" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="8" class="rec1">&nbsp;</td>
     <td width="1013" align="center" valign="top" class="rec2"><?php
@@ -71,8 +72,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
       </tr>
       <tr>
         <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td width="20%" align="left" valign="top">
+          <tr><td><div class="firstcol" valign="top">
             	<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
                 	<tr>
                       <td width="2%" class="bb1" height="13"></td>
@@ -96,8 +96,8 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </table>
 
 
-</td>
-            <td width="63%" align="left" valign="top" class="work_midleareapadding"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+</div>
+            <div class="secondcol" valign="top" class="work_midleareapadding"><table width="100%" border="0" cellspacing="0" cellpadding="0">
 			  <?php if(isset($emsg) && $emsg>0) { ?>
 			  <tr><td height="3"></td></tr>
 			  <tr>
@@ -127,8 +127,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 				include(TEMPLATES_PATH . DS . $arr_pages[$pid]['view'] . ".php");
 			?></td>
             </tr>
-            </table></td>
-            <td width="17%" align="left" valign="top"><?php
+            </table></div><div class='thirdcol'  valign="top"><?php
 /***
 *Including of Left menu
 */

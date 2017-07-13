@@ -12,6 +12,67 @@
 	border:#F00 solid 1px;
 }
 			
+.maintable{
+	width:1030px;
+	border: 0px;
+}
+.firstcol{
+	width:18%;
+	float: left;
+	padding: 2px;
+}
+.secondcol{
+	width:63%;
+	float: left;
+	padding-top: 5px;
+}
+.thirdcol{
+	width:17%;
+	float:left;
+	padding: 3px 5px;
+}
+
+@media only screen and (max-width: 780px) {
+    .maintable{
+		width:650px;
+		border: 0px;
+	}
+	.firstcol{
+		float: left;
+	}
+	.secondcol{
+		width: 70%;
+		float: left;
+		padding-left: 50px;
+	}
+	.thirdcol{
+		width:100%;
+	}
+}		
+
+@media only screen and (max-width: 410px) {
+    .maintable{
+		width:401px;
+		border: 0px;
+	}
+	.firstcol{
+		width:100%;
+		float: none;
+	}
+	.secondcol{
+		width:100%;
+		padding: 0px;
+		float: none;
+	}
+	.thirdcol{
+		width:100%;
+		float: none;
+	}
+	#arrowlistmenu{
+		display: none;
+	}
+}		
+			
 /*/////////////////left menu//////*/
 
 .bb1{	background: url(../../images/violet/b1.gif) left bottom no-repeat;}
@@ -106,7 +167,7 @@
 
 /* Old CSS Developer End Start */
 
-.body_class{		margin:0px; margin-top:30px;  background: url(../../images/violet/bg.gif) #BECFE3 center top fixed no-repeat ; font-family:Arial, Helvetica, sans-serif; font-size:12px;  color:#000000; text-decoration:none;  }
+.body_class{ margin:0px; margin-top:30px;  background: url(../../images/violet/bg.gif) #BECFE3 center top fixed no-repeat ; font-family:Arial, Helvetica, sans-serif; font-size:12px;  color:#000000; text-decoration:none;  }
 
 .body_pop{	background-color:#D1DFEF; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; text-decoration:none; }
 

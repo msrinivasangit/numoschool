@@ -358,7 +358,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=64&action=asignincharge">Assign Incharge</a></li>
 </ul>
 
-<?php }}if (in_array('9_p', $top_level_permissions) ){if (in_array('9_p', $admin_permissions)){?>
+<!--<?php }}if (in_array('9_p', $top_level_permissions) ){if (in_array('9_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/hrd_32.png" /></td>
@@ -378,7 +378,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=23&action=letterslist">Other letter Formats</a></li>
 <li><a href="?pid=23&action=sendlettertostaff">Send Letter</a></li>
 <li><a href="?pid=23&action=otherlettergeneration">Print Letter </a></li>
-</ul>
+</ul>-->
 
 <?php }}if (in_array('11_p', $top_level_permissions) ){if (in_array('11_p', $admin_permissions)){?>
 <div class="menuheader expandable">
@@ -427,7 +427,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=25&action=balancesheet">Balance Sheet</a></li>
 <li><a href="?pid=25&action=ledger">Ledger Summary</a></li>
 </ul>
-<?php } }if (in_array('13_p', $top_level_permissions) ){if (in_array('13_p', $admin_permissions)){?>
+<!--<?php } }if (in_array('13_p', $top_level_permissions) ){if (in_array('13_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/inventory_32.png" /></td>
@@ -478,10 +478,10 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <?php if (in_array("13_108", $admin_permissions)) {?>
 <li><a href="?pid=103&action=saled_stationary">Stationary&nbsp;Sales&nbsp;Invoices</a></li>
 <?php } ?><?php */?>
-</ul>
+</ul>-->
 
 
-<?php }}if (in_array('14_p', $top_level_permissions) ){if (in_array('14_p', $admin_permissions)){?>
+<!--<?php  /*}}if (in_array('14_p', $top_level_permissions) ){if (in_array('14_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/transport_32.png"  height="32" width="32" border="0"/></td>
@@ -493,7 +493,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=11&action=addtransport">Transport</a></li>
 <li><a href="?pid=11&action=maintenance">Maintenance Details</a></li>
 <li><a href="?pid=11&action=viewreport">Report</a></li><?php */?>
-<!--<li><a href="?pid=78&action=vehiclefees" >Vehicle Fees</a></li>-->
+<!--<li><a href="?pid=78&action=vehiclefees" >Vehicle Fees</a></li>
 <li><a href="?pid=75&action=routelist1">Route </a></li>
 <li><a href="?pid=75&action=routelist">Route List</a></li>
 <li><a href="?pid=76&action=boardlist">Board List</a></li>
@@ -506,7 +506,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=83&action=preparetransportbill">Prepare Transport Fee </a></li>
 <?php }?>
 <li><a href="?pid=84&action=viewtransportbill">View Transport Bills</a></li>
-<!--<li><a href="?pid=85&action=addmaintenance">Add Maintenance</a></li>-->
+<!--<li><a href="?pid=85&action=addmaintenance">Add Maintenance</a></li>
 
 
 <li><a href="?pid=85&action=maintenancedetails">Maintenance Details</a></li>
@@ -518,7 +518,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <?php /*?><li><a href="?pid=88&action=studentreport">Student Wise Report</a></li><?php */?>
 <li><a href="?pid=88&action=driver_copy">Student Wise Report</a></li>
 <li><a href="?pid=89&action=staffreport">Staff Wise Report</a></li>
-</ul>
+</ul>-->
 <?php } } if (in_array('15_p', $top_level_permissions) ){if(in_array('15_p', $admin_permissions)){?>
 <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -537,14 +537,14 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=90&action=staff">Staff wise timetables</a></li>
 <li><a href="#" onclick="window.open('?pid=90&action=free_staff')">View Free Staff</a></li>
 </ul>
-<?php }}if (in_array('16_p', $top_level_permissions) ){if (in_array('16_p', $admin_permissions)){?>
+<!--<?php }}if (in_array('16_p', $top_level_permissions) ){if (in_array('16_p', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="37px"><img src="images/library_32.png" /></td>
     <td ><a href="?pid=32&action=first" class="mainsidelink">Library</a></td>
   </tr>
-</table></div>
+</table></div>-->
 <?php }}if (in_array('17_p', $top_level_permissions) ){if (in_array('17_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -607,7 +607,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=27&action=staff_report">Staff  Report</a></li>
 <li><a href="?pid=27&action=descriptive_notes">Descriptive Notes</a></li>
 </ul>
-<?php }}
+<!--<?php }}
 if (in_array('19_p', $top_level_permissions) ){if (in_array('19_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -624,7 +624,7 @@ if (in_array('19_p', $top_level_permissions) ){if (in_array('19_p', $admin_permi
 <li><a href="?pid=19&action=collect_items">Collect Items</a></li>
 <li><a href="?pid=19&action=prepare_bill">Prepare Bill</a></li>
 <li><a href="?pid=19&action=viewdetails">View Details</a></li>
-</ul>
+</ul>-->
 <?php }}
 
 if (in_array('20_p', $top_level_permissions) ){if (in_array('20_p', $admin_permissions)){?>
@@ -642,7 +642,7 @@ if (in_array('20_p', $top_level_permissions) ){if (in_array('20_p', $admin_permi
 <?php if (in_array("20_3", $admin_permissions)) {?><li><a href="?pid=50&action=mailtostaff">To Staff</a></li><?php }?>
 <?php if (in_array("20_4", $admin_permissions)) {?><li><a href="?pid=50&action=mailtostudents">To Students</a></li><?php }?>
 </ul>
-<?php }}if (in_array('32_p', $top_level_permissions) ){if (in_array('32_p', $admin_permissions)){?>
+<!--<?php }}if (in_array('32_p', $top_level_permissions) ){if (in_array('32_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/idcard_32.png" /></td>
@@ -656,8 +656,8 @@ if (in_array('20_p', $top_level_permissions) ){if (in_array('20_p', $admin_permi
 <?php }?>
 <?php if (in_array("32_4", $admin_permissions)) {?>
 <li><a href="?pid=72&action=mailtostudents">Students</a></li><?php }?>
-</ul>
-<?php }}
+</ul>-->
+<!--<?php }}
 
 if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -672,10 +672,10 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 <li><a href="?pid=74&action=incomingletters">Inward/Outward Dispatch Entry</a></li><?php }?>
 
 
-<!--<?php //if (in_array("33_5", $admin_permissions)) {?><li><a href="?pid=74&action=outletters">Outward Dispatch Entry</a></li><?php //}?>-->
+<!--<?php //if (in_array("33_5", $admin_permissions)) {?><li><a href="?pid=74&action=outletters">Outward Dispatch Entry</a></li><?php //}?>
 <li><a href="?pid=74&action=manageletters">Manage Letters</a></li>
 
-</ul>
+</ul>-->
 <?php }}if (in_array('21_p', $top_level_permissions) ){if (in_array('21_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -708,14 +708,14 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 <!--<li><a href="?pid=57&action=mailtoadmin">Admin</a></li>-->
 </ul>
 
-<?php }}if (in_array('23_p', $top_level_permissions) ){if (in_array('23_p', $admin_permissions)){?>
+<!--<?php }}if (in_array('23_p', $top_level_permissions) ){if (in_array('23_p', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="37px"><img src="images/help_32.png" /></td>
     <td ><a href="?pid=53&action=view" class="mainsidelink">Help Desk</a></td>
   </tr>
-</table></div>
+</table></div>-->
 
 <?php }}if (in_array('24_p', $top_level_permissions) ){if (in_array('24_p', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
@@ -725,7 +725,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
     <td ><a href="?pid=52&action=tip_day" class="mainsidelink">TODAY'S Thought</a></td>
   </tr>
 </table></div>
-<?php } }if (in_array('25_p', $top_level_permissions) ){if (in_array('25_p', $admin_permissions)){?>
+<!--<?php } }if (in_array('25_p', $top_level_permissions) ){if (in_array('25_p', $admin_permissions)){?>
 <?php ?><div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
@@ -734,7 +734,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 <?php /*?>	<td width="37px"><img src="images/photo_gallery_32.png" /></td>
     <td ><a href="?pid=116&action=abcd" class="mainsidelink">Photo Album1</a></td>
 <?php */?>  </tr>
-</table></div><?php ?>
+</table></div><!--<?php ?>
 <?php }}if (in_array('26_p', $top_level_permissions) ){if (in_array('26_p', $admin_permissions)){?>
 <?php ?><div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -742,7 +742,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
     <td width="37px"><img src="images/video_32.png" /></td>
     <td ><a href="?pid=56&action=gallerylist" class="mainsidelink">Videos</a></td>
   </tr>
-</table></div>
+</table></div>*/-->
 <?php ?><?php }}if (in_array('27_p', $top_level_permissions) ){if (in_array('27_p', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -751,7 +751,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
     <td ><a href="?pid=58&action=holidayslist" class="mainsidelink">Holidays</a></td>
   </tr>
 </table></div>
-<?php }}if (in_array('35_p', $top_level_permissions) ){if (in_array('35_p', $admin_permissions)){?>
+<!--<?php }}if (in_array('35_p', $top_level_permissions) ){if (in_array('35_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/addons_32.png" /></td>
@@ -787,7 +787,7 @@ if (in_array('30_p', $top_level_permissions) ){if (in_array('30_p', $admin_permi
 <ul class="categoryitems">
 <li><a href="?pid=30&action=know_category">Create Category</a></li>
 <li><a href="?pid=30&action=know_categ">Search Articles</a></li>
-</ul>
+</ul>-->
 <?php }} if (in_array('31_p', $top_level_permissions) ){if (in_array('31_p', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -798,14 +798,14 @@ if (in_array('30_p', $top_level_permissions) ){if (in_array('30_p', $admin_permi
 </table></div>
  <?php }}?>
 
- <?php if (in_array('34_p', $top_level_permissions) ){if (in_array('34_p', $admin_permissions) && in_array('34_1', $admin_permissions)){?>
+<!-- <?php if (in_array('34_p', $top_level_permissions) ){if (in_array('34_p', $admin_permissions) && in_array('34_1', $admin_permissions)){?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="37px"><img src="images/roll_management.png" /></td>
     <td ><a href="?pid=91&action=report" class="mainsidelink">Role Management</a></td>
   </tr>
-</table></div>
+</table></div>--->
  <?php }}?>
 
 

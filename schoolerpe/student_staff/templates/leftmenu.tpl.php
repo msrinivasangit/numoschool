@@ -92,18 +92,28 @@ text-decoration:none;
 color: #000000;
 text-decoration:none;
 }
-</style>
 
+</style>
+<script type="text/javascript">
+  function tooglelistmenu(){
+    if(document.getElementById('arrowlistmenu').style.display == "block" ) {
+       document.getElementById('arrowlistmenu').style.display="none";
+    } else {
+      document.getElementById('arrowlistmenu').style.display="block";
+    }
+  }
+</script>
 <?php 
 	//Student module left menu
 	if ($_SESSION['eschools']['login_type']=="student"){ 
 ?>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="35" align="center" class="left_student">&nbsp;</td>
+    <td height="35" align="center" class="left_student" style="
+cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
   </tr>
   <tr>
-    <td><div class="arrowlistmenu">
+    <td><div id="arrowlistmenu" class="arrowlistmenu">
 
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -357,11 +367,12 @@ text-decoration:none;
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="35" align="center" class="left_staff">&nbsp;</td>
+    <td height="35" align="center" class="left_staff" tyle="
+cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
   </tr>
   <tr>
     <td>
-<div class="arrowlistmenu">
+<div id="arrowlistmenu" class="arrowlistmenu">
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
