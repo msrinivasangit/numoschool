@@ -153,7 +153,7 @@ $admin_permissions = explode(',', $permissions['admin_permissions']);
 if (in_array('2_p', $top_level_permissions) ){
 if (in_array('2_p', $admin_permissions)){?>
 
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/setup_32.png" /></td>
@@ -165,18 +165,18 @@ if (in_array('2_p', $admin_permissions)){?>
 <li><a href="?pid=20&action=manageclasses">Groups / Classes / Subjects</a></li>
 <li><a href="?pid=97&action=list">Class Sections</a></li>
 <li><a href="?pid=20&action=htmlcode">API for Login</a></li>
-<!--<li><a href="?pid=121&page=castecategory">Caste </a></li>-->
+<li><a href="?pid=121&page=castecategory">Caste </a></li>
 <li><a href="?pid=94&page=caste">Caste Categories</a></li>
-<!--<li><a href="?pid=121&page=cat">Categories & Caste </a></li>-->
-<!--<li><a href="?pid=94&page=int">Other Institutes</a></li>-->
+<li><a href="?pid=121&page=cat">Categories & Caste </a></li>
+<li><a href="?pid=94&page=int">Other Institutes</a></li>
 <li><a href="?pid=94&page=transport">Student Pick-up Point </a></li>
-<!--<li><a href="?pid=94&page=subject&action=list">Subjects Categorization</a></li>-->
-</ul>
+<li><a href="?pid=94&page=subject&action=list">Subjects Categorization</a></li>
+</ul> -->
 <?php }?>
 <?php }
 // Certificates
 if (in_array('35_p', $top_level_permissions) ){if (in_array('35_p', $admin_permissions)){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!--<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/certi.png" width="31" height="44" /></td>
     <td >Certificates</td>
@@ -184,8 +184,8 @@ if (in_array('35_p', $top_level_permissions) ){if (in_array('35_p', $admin_permi
 </table></div>
 <ul class="categoryitems">
 <li><a href="?pid=117&action=list">Bonafied Certificate</a></li>
-<!--<li><a href="?pid=120&action=list">Bonafied for Bank_Acount</a></li>
-<li><a href="?pid=119&action=list">Bonafied for IncomeTax Rebate</a></li>-->
+<li><a href="?pid=120&action=list">Bonafied for Bank_Acount</a></li>
+<li><a href="?pid=119&action=list">Bonafied for IncomeTax Rebate</a></li>
 <? //if (in_array('5_6', $admin_permissions)){?>
 <li><a href="?pid=95&action=list"><span id="internal-source-marker_0.052443267584382114">Character</span> Certificate</a></li>
 
@@ -231,7 +231,7 @@ if (in_array('35_p', $top_level_permissions) ){if (in_array('35_p', $admin_permi
 
 if (in_array('3_p', $top_level_permissions) ){
 if (in_array('3_p', $admin_permissions)){ ?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/frontoffice_32.png" /></td>
     <td >Front Office</td>
@@ -240,12 +240,12 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <ul class="categoryitems">
 <?php if (in_array('3_1', $admin_permissions)){ ?><li><a href="?pid=8">Enquiry Form</a></li><?php }?>
 <li><a href="?pid=2&action=list_enquiry">Enquiry List</a></li>
-<?php //if (in_array("3_4", $admin_permissions)) {?><!--<li><a href="?pid=3&action=list_enquiry">Admitted Students</a></li>--><?php //}?>
+<?php //if (in_array("3_4", $admin_permissions)) {?><li><a href="?pid=3&action=list_enquiry">Admitted Students</a></li><?php //}?>
 <?php ?><?php if (in_array("3_7", $admin_permissions)) {?><li><a href="?pid=3&action=enquiry_students">Admitted Students [Enquiry]</a></li><?php }?><?php ?>
 
- <!--<li> <a href="report.html"class="menutitlein">Reports</a><br /> </li>-->
-<!--<li><a href="?pid=3">Entrance Test</a></li>-->
-</ul>
+ <li> <a href="report.html"class="menutitlein">Reports</a><br /> </li>
+<li><a href="?pid=3">Entrance Test</a></li>
+</ul>  -->
 <?php }
 
  }
@@ -330,7 +330,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 </ul>
 
 <?php }}if (in_array('8_p', $top_level_permissions) ){ if (in_array('8_p', $admin_permissions)){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/tutorials_32.png" /></td>
     <td >Study Material </td>
@@ -343,7 +343,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=61&action=list">Add Booklet</a></li>
 <li><a href="?pid=63&action=list">Question Bank</a></li>
 </ul>
-<?php }}if (in_array('10_p', $top_level_permissions) ){if (in_array('10_p', $admin_permissions)){?>
+ --><?php }}if (in_array('10_p', $top_level_permissions) ){if (in_array('10_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/staff_32.png" /></td>
@@ -381,7 +381,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 </ul>-->
 
 <?php }}if (in_array('11_p', $top_level_permissions) ){if (in_array('11_p', $admin_permissions)){?>
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/payroll_32.png" /></td>
@@ -393,7 +393,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=29&action=leavemaster">Create Annual leave</a></li>
 <li><a href="?pid=29&action=allowencemaster">Create Allowance Type</a></li>
 <li><a href="?pid=29&action=deductionsmaster">Create Deduction Type</a></li>
-<!--<li><a href="?pid=29&action=invest"> Create Investment</a></li>-->
+<li><a href="?pid=29&action=invest"> Create Investment</a></li>
 <li><a href="?pid=29&action=loanmaster">Create a Loan</a></li>
 <li><a href="?pid=29&action=taxmaster">Create a Tax</a></li>
 <li><a href="?pid=29&action=pfmaster"> Create PF</a></li>
@@ -405,11 +405,11 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><b>Payslip Generation</b></li>
 <li><a href="?pid=35&action=employeewisepayslip">Employee Payslip</a></li>
 <?php if (in_array("11_103", $admin_permissions)) {?><li><a href="?pid=35&action=paysliplist">Payslip List</a></li><?php }?>
-<!--<li><a href="?pid=35&action=yearwisepayslip">Year wise pay slip</a></li>
--->
+<li><a href="?pid=35&action=yearwisepayslip">Year wise pay slip</a></li>
+
 </ul>
-<?php } }if (in_array('12_p', $top_level_permissions) ){if (in_array('12_p', $admin_permissions)){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+ --><?php } }if (in_array('12_p', $top_level_permissions) ){if (in_array('12_p', $admin_permissions)){?>
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/financial_accounting_32.png" /></td>
     <td> Accounting </td>
@@ -427,7 +427,7 @@ if (in_array('3_p', $admin_permissions)){ ?>
 <li><a href="?pid=25&action=balancesheet">Balance Sheet</a></li>
 <li><a href="?pid=25&action=ledger">Ledger Summary</a></li>
 </ul>
-<!--<?php } }if (in_array('13_p', $top_level_permissions) ){if (in_array('13_p', $admin_permissions)){?>
+ --><!--<?php } }if (in_array('13_p', $top_level_permissions) ){if (in_array('13_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/inventory_32.png" /></td>
@@ -628,7 +628,7 @@ if (in_array('19_p', $top_level_permissions) ){if (in_array('19_p', $admin_permi
 <?php }}
 
 if (in_array('20_p', $top_level_permissions) ){if (in_array('20_p', $admin_permissions)){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/compose_message_32.png" /></td>
     <td > Message </td>
@@ -642,7 +642,7 @@ if (in_array('20_p', $top_level_permissions) ){if (in_array('20_p', $admin_permi
 <?php if (in_array("20_3", $admin_permissions)) {?><li><a href="?pid=50&action=mailtostaff">To Staff</a></li><?php }?>
 <?php if (in_array("20_4", $admin_permissions)) {?><li><a href="?pid=50&action=mailtostudents">To Students</a></li><?php }?>
 </ul>
-<!--<?php }}if (in_array('32_p', $top_level_permissions) ){if (in_array('32_p', $admin_permissions)){?>
+ --><!--<?php }}if (in_array('32_p', $top_level_permissions) ){if (in_array('32_p', $admin_permissions)){?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/idcard_32.png" /></td>
@@ -692,7 +692,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 <?php ?><li><a href="?pid=62&action=smssetup">SMS Setup</a></li><?php ?>
 </ul>
 <?php }}if (in_array('22_p', $top_level_permissions) ){if (in_array('22_p', $admin_permissions)){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="37px"><img src="images/notice_32.png" /></td>
     <td >Send Notice</td>
@@ -704,7 +704,7 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 <?php if (in_array("22_1", $admin_permissions)) {?>
 <li><a href="?pid=57&action=mailtostaff">To Staff</a></li><?php }?>
 <?php if (in_array("22_2", $admin_permissions)) {?><li><a href="?pid=57&action=mailtostudents">To Students</a></li><?php }?>
-
+ -->
 <!--<li><a href="?pid=57&action=mailtoadmin">Admin</a></li>-->
 </ul>
 
@@ -718,14 +718,14 @@ if (in_array('33_p', $top_level_permissions) ){if (in_array('33_p', $admin_permi
 </table></div>-->
 
 <?php }}if (in_array('24_p', $top_level_permissions) ){if (in_array('24_p', $admin_permissions)){?>
-<div class="menuheader" style="cursor: default">
+<!-- <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="37px"><img src="images/thought_32.png" /></td>
     <td ><a href="?pid=52&action=tip_day" class="mainsidelink">TODAY'S Thought</a></td>
   </tr>
 </table></div>
-<!--<?php } }if (in_array('25_p', $top_level_permissions) ){if (in_array('25_p', $admin_permissions)){?>
+ --><!--<?php } }if (in_array('25_p', $top_level_permissions) ){if (in_array('25_p', $admin_permissions)){?>
 <?php ?><div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>

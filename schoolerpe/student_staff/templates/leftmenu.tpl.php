@@ -196,7 +196,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <?php if (in_array('8_p', $top_level_permissions) ){?>
 
 
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/tutorials_32.png" /></td>
     <td width="73%">Study Material</td>
@@ -209,7 +209,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 
 
 </ul>
-<?php }?>
+ --><?php }?>
 <?php /*if (in_array('19_p', $top_level_permissions) ){ ?>
 <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -223,7 +223,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </ul>
 <?php }*/?>
 <?php if (in_array('14_p', $top_level_permissions) ){ ?>
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/transport_32.png" /></td>
@@ -235,7 +235,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=42&action=mydetails">My Route/Board Details</a></li>
 <li><a href="?pid=43&action=alldetails">View All Routes/Boards</a></li>
 </ul>
-<?php }?>
+ --><?php }?>
 <?php /*?><div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
@@ -245,7 +245,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </table></div><?php */?>
 <?php if (in_array('22_p', $top_level_permissions) ){ ?>
 
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="27%"><img src="images/notice_32.png" /></td>
@@ -255,9 +255,9 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <ul class="categoryitems">
 <li><a href="?pid=30&action=mails_received">Received Notices</a></li>
 <li><a href="?pid=30&action=sentmails">Replied Notices</a></li></ul>
-<?php }?>
+ --><?php }?>
 <?php if (in_array('20_p', $top_level_permissions) ){ ?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/compose_message_32.png" /></td>
     <td width="73%">Message</td>
@@ -267,11 +267,11 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=27&action=mails_received">Message Inbox</a></li>
 <li><a href="?pid=27&action=sentmails">Sent Messages</a></li>
 <li><a href="?pid=27&action=mailtoadmin">Compose Message</a></li>
-<!--<li><a href="?pid=27&action=mailtoadmin">Compose</a></li>-->
-<!--<li><a href="?pid=27&action=mailtostaff">To Faculty</a></li>-->
-<!--<li><a href="?pid=27&action=mailtostudents">To Students</a></li>-->
-</ul>
-<?php }?>
+<li><a href="?pid=27&action=mailtoadmin">Compose</a></li>
+<li><a href="?pid=27&action=mailtostaff">To Faculty</a></li>
+<li><a href="?pid=27&action=mailtostudents">To Students</a></li>
+</ul> -->
+ <?php }?>
 <?php if (in_array('16_p', $top_level_permissions) ){?>
 
 <!--<div class="menuheader" style="cursor: default">
@@ -285,7 +285,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 
 <?php }?>
 <?php if (in_array('30_p', $top_level_permissions) ){ ?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/knowledge_base_32.png" /></td>
     <td width="73%">Knowledge Base</td>
@@ -294,7 +294,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <ul class="categoryitems">
 <li><a href="?pid=4&action=know_categ">Search Articles</a></li>
 </ul>
-<?php }?>
+ --><?php }?>
 <?php if (in_array('27_p', $top_level_permissions) ){ ?>
 
 <div class="menuheader" style="cursor: default">
@@ -307,7 +307,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <?php }?>
 <?php if (in_array('35_p', $top_level_permissions) ){ ?>
 
-<div class="menuheader" style="cursor: default">
+<!-- <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="27%"><img src="images/addons_32.png" /></td>
@@ -318,12 +318,12 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <?php if (in_array('25_p', $top_level_permissions) ){ ?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-<!--<tr>
+<tr>
     <td width="27%"><img src="images/photo_gallery_32.png" /></td>
     <td width="73%" ><a href="?pid=41&action=albumlist" class="mainsidelink">Photo Album</a></td>
-  </tr>-->
+  </tr>
 </table></div>
-<?php }?>
+ --><?php }?>
 <?php if (in_array('26_p', $top_level_permissions) ){ ?>
 <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -400,7 +400,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </ul>
 <?php }?>
 <?php if(in_array('14_p', $top_level_permissions)){?>
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/transport_32.png" /></td>
@@ -412,7 +412,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=46&action=mydetails">My Route/Board Details</a></li>
 <li><a href="?pid=43&action=alldetails">View All Routes/Boards</a></li>
 </ul>
-<?php }?>
+ --><?php }?>
 <?php if (in_array('15_p', $top_level_permissions) && $staff_TYPE =='teaching'){?>
 <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -447,7 +447,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 
 <?php if(in_array('11_p', $top_level_permissions)){?>
 
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/salary_32.png" /></td>
     <td width="73%">Salary</td>
@@ -457,13 +457,13 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=20&action=viewsalary">View Salary</a></li>
 <li><a href="?pid=20&action=loanissueslist">View Loan</a></li>
 </ul>
-<div class="menuheader" style="cursor: default">
+ --><!-- <div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="27%"><img src="images/leave_32.png" /></td>
     <td width="73%"><a href="?pid=24&action=Leave" class="mainsidelink">Annual Leaves</a></td>
   </tr>
-</table></div>
+</table></div> -->
 <?php }?>
 
 
@@ -480,7 +480,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </ul>
 <?php }?>
 <?php if (in_array('8_p', $top_level_permissions) && $staff_TYPE =='teaching'){?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="27%"><img src="images/tutorials_32.png" /></td>
     <td width="73%">Study Material</td>
@@ -490,7 +490,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=36&action=list">Add&nbsp;Tutorial</a></li>
 <li><a href="?pid=37&action=list">Add&nbsp;Booklet</a></li>
 <li><a href="?pid=39&action=list">Question Bank</a></li>
-</ul>
+</ul> -->
 <?php }?>
 
 
@@ -518,7 +518,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </ul>
 <?php }?>
 <?php if (in_array('22_p', $top_level_permissions) ){ ?>
-<div class="menuheader expandable">
+<!-- <div class="menuheader expandable">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
     <td width="27%"><img src="images/notice_32.png" /></td>
@@ -528,7 +528,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <ul class="categoryitems">
 <li><a href="?pid=31&action=mails_received">Received Notices</a></li>
 <li><a href="?pid=31&action=sentmails">Replied Notices</a></li></ul>
-<?php 
+ --><?php 
 }?>
 <?php if (in_array('20_p', $top_level_permissions)  ){ ?>
 
@@ -548,7 +548,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 </ul>
 <?php }?>
 <?php if (in_array('30_p', $top_level_permissions) ){ ?>
-<div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- <div class="menuheader expandable"><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="28%"><img src="images/knowledge_base_32.png" /></td>
     <td width="72%">Knowledge Base </td>
@@ -558,7 +558,7 @@ cursor: pointer;" onclick="tooglelistmenu();">&nbsp;</td>
 <li><a href="?pid=18&action=know_category">Create Category</a></li>
 <li><a href="?pid=18&action=know_categ">Search Articles</a></li>
 </ul>
-<?php }?>
+ --><?php }?>
 <!--<div class="menuheader" style="cursor: default">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
